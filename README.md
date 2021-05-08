@@ -1,6 +1,4 @@
-# BF528-jjrose-project
-
-# Repository Contents
+# BF528--Jason Rose Individual Project Repository Contents
 Data Curator Project 3:
 1. fastqc.qsub -- Batch job submission for running fastqc on each set of samples.
 2. star_example.qsub -- Example batch job submission of running STAR. I had created one for each sample, but only providing an example here.

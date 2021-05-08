@@ -1,0 +1,18 @@
+#!/bin/bash -l
+
+#$ -P bf528
+#$ -j y
+#$ -cwd
+
+
+module load fastqc
+
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178008_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178008_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178009_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178009_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178010_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178010_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178014_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178014_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178021_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178021_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1178047_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1178047_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1177981_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1177981_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1177982_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1177982_2.fastq.gz
+fastqc /projectnb2/bf528/users/saxophone/jjrose/SRR1177983_1.fastq.gz /projectnb2/bf528/users/saxophone/jjrose/SRR1177983_2.fastq.gz
